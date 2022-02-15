@@ -18,6 +18,9 @@ class MainActivity : AppCompatActivity() {
           if(inputId == "admin" && inputPw =="asdf"){
               Toast.makeText(this, "관리자님 환영합니다", Toast.LENGTH_SHORT).show()
           }
+          else {
+              Toast.makeText(this, "로그인에 실패했습니다.", Toast.LENGTH_SHORT).show()
+          }
 
 
       }
